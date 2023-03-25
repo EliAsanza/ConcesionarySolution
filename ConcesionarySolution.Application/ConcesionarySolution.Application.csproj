@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConcesionarySolution.Domain\ConcesionarySolution.Domain.csproj" />
+    <ProjectReference Include="..\ConcesionarySolution.Infraestructure\ConcesionarySolution.Infraestructure.csproj" />
+  </ItemGroup>
+
+</Project>
